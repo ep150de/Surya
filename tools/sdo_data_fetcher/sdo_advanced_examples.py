@@ -238,7 +238,7 @@ if __name__ == "__main__":
     main()
 '''
     
-    with open("monitoring_daemon.py", 'w') as f:
+    with open("monitoring_daemon.py", 'w', encoding='utf-8') as f:
         f.write(script_content)
     
     print("\n✓ Created 'monitoring_daemon.py'")
